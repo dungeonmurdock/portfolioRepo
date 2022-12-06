@@ -1,0 +1,32 @@
+.menu-bar,
+.page-links,
+.links-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar,
+.links-list {
+    width: 100%;
+}
+
+.menu-bar {
+    justify-content: space-between;
+    background-color: #4f40ad;
+    color: white;
+}
+
+.page-links {
+    width: 25%;
+}
+
+.links-list {
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.menu-name {
+    width: 30%;
+}
