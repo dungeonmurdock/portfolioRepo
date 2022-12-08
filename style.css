@@ -30,3 +30,7 @@
 .menu-name {
     width: 30%;
 }
+
+.nav-link a {
+    text-decoration: none;
+}
