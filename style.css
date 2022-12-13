@@ -10,8 +10,15 @@ body {
 .menu-bar,
 .page-links,
 .links-list,
-.card-container {
+.card-container,
+.project-card {
     display: flex;
+}
+
+.menu-bar,
+.page-links,
+.links-list,
+.card-container {
     flex-direction: row;
 }
 
@@ -87,15 +94,35 @@ body {
     border-radius: 20px;
 }
 
+.projects-title {
+    margin-left: 90px;
+}
+
 .card-container{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .project-card {
+    flex-direction: column;
     width: 40%;
-    height: 34vh;
+    height: 60vh;
+    margin: 30px 15px 0px 15px;
+}
+
+.card-img-box,
+.font-container {
+    width: 90%;
+}    
+
+.card-img-box {
+    height: 45vh;
     background-color: #4001D2;
     border-radius: 25px 25px 25px 0;
-    margin: 15px;
 }
+
+.font-container a {
+    color: #000000;
+    text-decoration: none;
+}
+
