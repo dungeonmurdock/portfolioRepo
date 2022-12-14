@@ -11,7 +11,9 @@ body {
 .page-links,
 .links-list,
 .card-container,
-.project-card {
+.project-card,
+.banner, 
+.contact-section {
     display: flex;
 }
 
@@ -20,6 +22,11 @@ body {
 .links-list,
 .card-container {
     flex-direction: row;
+}
+
+.project-card,
+.contact-section {
+    flex-direction: column;
 }
 
 .menu-bar,
@@ -31,7 +38,6 @@ body {
     justify-content: space-between;
     background-color: #4f40ad;
     color: white;
-    width: 100%;
     height: 80px;
 }
 
@@ -56,20 +62,27 @@ body {
 }
 
 .banner {
-    display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
 }
 
-.banner-msg {
+.banner-msg,
+.font-container-contact {
     position: absolute;
-    top: 155px;
     z-index: 9;
 }
 
-.banner-img {
+.banner-msg {
+    top: 155px;
+}
+
+.banner-img,
+.contact-section img {
     position: relative;
     width: 35%;
+}
+
+.banner-img {
     left: -350px;
 }
 
@@ -95,7 +108,7 @@ body {
 }
 
 .projects-title {
-    margin-left: 90px;
+    margin-left: 125px;
 }
 
 .card-container{
@@ -104,7 +117,6 @@ body {
 }
 
 .project-card {
-    flex-direction: column;
     width: 40%;
     height: 60vh;
     margin: 30px 15px 0px 15px;
@@ -126,3 +138,14 @@ body {
     text-decoration: none;
 }
 
+.font-container-contact a {
+    color: #ffffff;
+}
+
+.contact-section {
+    justify-content: center;
+}
+
+.contact-section img {
+    margin-left: 820px;
+}
