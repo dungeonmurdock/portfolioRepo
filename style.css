@@ -13,7 +13,8 @@ body {
 .card-container,
 .project-card,
 .banner, 
-.contact-section {
+.contact-section,
+.font-container-contact {
     display: flex;
 }
 
@@ -25,7 +26,8 @@ body {
 }
 
 .project-card,
-.contact-section {
+.contact-section,
+.font-container-contact {
     flex-direction: column;
 }
 
@@ -136,6 +138,19 @@ body {
 .font-container a {
     color: #000000;
     text-decoration: none;
+}
+
+.font-container-contact {
+    align-items: center;
+    margin-left: 335px;
+}
+
+.font-container-contact h2 {
+    font-size: 48px;
+}
+
+.font-container-contact p {
+    font-size: 24px;
 }
 
 .font-container-contact a {
